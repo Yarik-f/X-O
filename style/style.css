@@ -1,0 +1,57 @@
+.wrapper{
+  margin: 50px auto;
+    width: 270px;
+    height: 320px;
+    background: #938992;
+    color: #000;
+    font-family: Arial;
+    padding: 18px;
+    box-shadow: 4px 4px 4px #4f4f4f;
+}
+.field {
+  display: grid;
+  grid-template-areas:
+    "one two three"
+    "four five six"
+    "seven eight nine";
+  grid-gap: 7px;
+  justify-items: center;
+}
+.btn {
+  width: 85px;
+  height: 85px;
+  background: #333;
+  text-align: center;
+  line-height: 85px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn:hover {
+  filter: brightness(120%);
+}
+
+.btn:active {
+  filter: brightness(90%);
+}
+.score{
+    height: 10px;
+    padding: 10px;
+    display: grid;
+    justify-items: center;
+    align-items: start;
+    margin-bottom: 25px;
+}
+.restart {
+  height: 10px;
+  padding: 40px;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  cursor: pointer;
+    user-select: none;
+}
+.hide{
+  display: none;
+}
